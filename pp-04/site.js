@@ -31,9 +31,9 @@ console.log('The value of x is:', x, 'It should be 5.');
 })();
 //  3. Correct this function so that there is no i variable in
 //  the global scope:
-
+//var i is declared locally int eh function
 function arrayEach(array, func) {
-  for (i = 0; i < array.length; i++) {
+  for ( var i = 0; i < array.length; i++) {
     func(array[i]);
   }
 }
