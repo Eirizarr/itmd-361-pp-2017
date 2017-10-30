@@ -47,8 +47,8 @@ console.log(i) // should be 'undefined', not 3
 //  as JavaScript comments.
 
 function addTwo(x) {
-  x = x + 2;
-  return x;
+  x = x + 2; //It des not modify becuase x is being passed as an argument and
+  return x;  //therefore makes it local to this function, and not global
 }
 
 console.log(addTwo(4)); // 6
