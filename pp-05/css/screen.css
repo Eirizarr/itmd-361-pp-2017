@@ -19,6 +19,22 @@ body {
 }
 
 /* ===== LAYOUT STYLES ===== */
+/*Decided to spice up the button so the user will know it ccan be pressed,
+so adding a hover to it, and making it red. Because who doesn't want to press
+a red button */
+
+#doorbell {
+  cursor: pointer;
+  position: absolute;
+  margin-left: 2em;
+  background-color: red;
+}
+
+#doorbell:hover {
+  background-color: black;
+  color: green;
+}
+
 
 
 /* ===== MODULAR STYLES ===== */
